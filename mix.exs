@@ -15,8 +15,8 @@ defmodule PhoenixMjml.Mixfile do
   end
 
   defp deps do
-    [{:phoenix, "~> 1.2.0"},
-     {:phoenix_html, "~> 2.6"},
+    [{:phoenix, "~> 1.3.0"},
+     {:phoenix_html, "~> 2.10"},
      {:uuid, "~> 1.1"},
      {:ex_doc, "~> 0.14", only: :dev, runtime: false}]
   end
